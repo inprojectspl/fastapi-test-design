@@ -1,0 +1,7 @@
+fastapi
+httpx
+asgi-lifespan
+anyio
+pytest
+sqlalchemy[asyncio]>=2.0,<2.1
+asyncpg

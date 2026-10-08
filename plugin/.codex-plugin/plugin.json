@@ -1,0 +1,10 @@
+{
+  "name": "fastapi-tests-design",
+  "version": "1.1.0",
+  "description": "Plan, review and implement isolated FastAPI, JWT and PostgreSQL tests.",
+  "author": {
+    "name": "inprojects AI tools"
+  },
+  "repository": "https://github.com/inprojectspl/fastapi-test-design",
+  "skills": "./skills/"
+}
