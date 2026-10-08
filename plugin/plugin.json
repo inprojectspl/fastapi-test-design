@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "fastapi-tests-design",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Plan, review and implement isolated FastAPI, JWT and PostgreSQL tests.",
   "author": {
     "name": "inprojects AI tools"

@@ -1,6 +1,6 @@
 ---
 name: fastapi-tests-design
-description: Plans, reviews, and implements tests for FastAPI backends using JWT auth and PostgreSQL. Use when user asks to create, improve, review, or refactor tests for routers, services, repositories, auth dependencies, permission checks, or validation logic in FastAPI projects.
+description: Plans, reviews and implements tests for FastAPI backends using JWT auth and PostgreSQL. Use when the user asks to create, improve, review or refactor tests for routers, services, repositories, auth dependencies, permission checks or validation logic in FastAPI projects, or to fix flaky async or database tests there. Also use for Polish requests such as "napisz testy do endpointu", "testy FastAPI", "testy autoryzacji JWT" or "izolacja bazy w testach".
 ---
 
 # fastapi-tests-design
