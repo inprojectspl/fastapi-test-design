@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-10-08
+
+### Changed
+
+- Rewrote the skill description with concrete trigger situations and Polish request phrases, so agents that route by description alone, such as Claude Code, select the skill reliably.
+
+### Fixed
+
+- Linked the runnable async client example by URL, because the installed plugin does not contain `evals/`.
+
 ## [1.1.0] - 2026-10-08
 
 ### Added
@@ -39,6 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `README.md` with installation, usage, and design principles.
 - `CLAUDE.md` contributor and repository policy guidance.
 
-[Unreleased]: https://github.com/inprojectspl/fastapi-test-design/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/inprojectspl/fastapi-test-design/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/inprojectspl/fastapi-test-design/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/inprojectspl/fastapi-test-design/releases/tag/v1.1.0
 [1.0.0]: https://github.com/inprojectspl/fastapi-test-design/tree/cc45a7047080650c7c487926abc4cc36867f11a6
