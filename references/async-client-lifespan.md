@@ -1,6 +1,6 @@
 # Async client and lifespan
 
-Use the project's installed HTTPX/FastAPI and async plugin versions. The example uses AnyIO's pytest plugin on asyncio; do not enable a second competing async auto mode. The complete runnable example and verified versions are in the repository's `evals/` directory.
+Use the project's installed HTTPX/FastAPI and async plugin versions. The example uses AnyIO's pytest plugin on asyncio; do not enable a second competing async auto mode. The complete runnable example and verified versions are in the source repository's [evals directory](https://github.com/inprojectspl/fastapi-test-design/tree/v1.1.1/evals), which is not part of the installed plugin.
 
 Set isolated test configuration before importing or constructing an application that reads settings. Prefer an existing app factory. Function-scoped clients, app resources and async fixtures should share the same event loop; wider fixtures require compatible plugin/loop scopes.
 
